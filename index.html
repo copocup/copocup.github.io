@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Casa comigo?</title>
+    <meta name="description" content="Descrição da Página">
+    <meta name="keywords" content="palavras-chave, separadas por vírgulas">
+    <meta name="author" content="Copin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/style.css" />
+  </head>
+  <body>
+      <!-- Adiciona a tag de áudio para reproduzir a música -->
+      <audio id="love-audio" src="music/love.mp3" loop></audio>
+
+      <!-- Adiciona botões para controlar o mixer -->
+      <div class="mixer">
+          <button id="play-btn">&#9654;</button>
+          <button id="pause-btn">ll</button>
+          <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+      </div>
+    <!-- <img src="img/core.png" alt="Logo Core"> -->
+    <div class="heart-container"></div> <!-- Adiciona um novo container para os corações -->
+    <div class="cores">
+    </div>
+    <div class="container">
+      <h1>QUER CASAR COMIGO?</h1>
+      <div class="answers">
+        <button id="yes-btn">SIM</button>
+        <button id="no-btn">NÃO</button>
+      </div>
+      <p id="love-message" class="hidden">Eu te quis desde o dia que a Ericlycia nos shipou</p>
+    </div>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
